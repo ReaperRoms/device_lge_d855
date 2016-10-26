@@ -30,6 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d855/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := d855_defconfig
 TARGET_REQUIRES_BUMP := true
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x/bin
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
